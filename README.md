@@ -9,20 +9,20 @@ Pertanyaan 2
 Perbedaan deklarasi h1 dengan #intro h1
 Jawaban 2
 deklarasi h1 digunakan untuk semua elemen h1 sedangan #intro h1 digunakan hanya untuk id yang bernama intro.
-contoh <h1>Hello Saya Fikri<h1> lalu di file CSS kita deklarasi seperti berikut.
+contoh (h1)Hello Saya Fikri(h1) lalu di file CSS kita deklarasi seperti berikut.
 .h1 {
 color: white;
 }
 maka semua elemen h1 akan berwarna putih
 namun, jika kita menggunakan
-<div id="intro">
-  <h1>
+(div id="intro")
+  (h1)
   Saya Fikri
-  <h1>
-<div>
-<h1>
+  (h1)
+(div)
+(h1)
   Mahasiswa UPB
-<h1>
+(h1)
 lalu di file CSS kita deklarasi seperti berikut.
 #intro {
 color: blue;
